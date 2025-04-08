@@ -1,0 +1,6 @@
+{
+    "title" : "Learn about Data science.",
+    "content" : "Embarking on a data science journey begins with mastering Python, a versatile language essential for data manipulation and analysis. Familiarize yourself with libraries like Pandas for data wrangling, NumPy for numerical computing, and Matplotlib/Seaborn for visualization. Begin with online courses or tutorials that cover fundamental statistical concepts and machine learning algorithms. Practice by working with real-world datasets, starting with simple tasks like data cleaning and exploratory analysis. Gradually progress towards building predictive models and communicating insights through compelling visualizations. Consistent practice and a curious mindset are key to success in data science.",
+    "author" : "- Hunting Coder😎",
+    "slug" : "data-sci"
+}

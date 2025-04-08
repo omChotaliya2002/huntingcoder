@@ -15,9 +15,9 @@ const page = () => {
   return (
 <>
     <div className='flex relative items-center justify-center flex-col md:mb-[30%] md:mt-[15%] xl:mb-[20%] select-none transition-all' style={{border:"0px solid white"}}>
-       <p className='text-[25px] md:mb-[20%] md:mx-auto font-semibold 2xl:mb-[10%]' style={{border:"1px solid white"}}> Find us on  </p>
+       <p className='text-[25px] md:mb-[20%] md:mx-auto font-semibold 2xl:mb-[10%]' style={{border:"0px solid white"}}> Find us on  </p>
 
-      <div className='social-platforms absolute mt-96 md:mt-[20%] md:w-[100%] md:h-[70px] bg-blue-200' style={{border:"2px solid yellow"}}>
+      <div className='social-platforms absolute mt-96 md:mt-[20%] md:w-[100%] md:h-[70px] bg-blue-200' style={{border:"0px solid yellow"}}>
 
         <div className='github md:w-[55px] md:h-[50px] md:ml-[15%] md:mt-[3%] mt-[2%] xl:mt-[1.5%] 2xl:mt-[1.5%]' style={{border:"0px solid black"}}>  
             <Image src="/images/github.svg" width={100} height={100} alt='github' className='md:h-[70px] md:w-[70px] md:ml-[2%] md:mt-[-25%] cursor-pointer hover:scale-110'/>

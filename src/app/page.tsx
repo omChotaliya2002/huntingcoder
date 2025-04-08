@@ -18,7 +18,7 @@ export default function Home() {
   <>     
 
       <div className="relative flex md:w-[100%] md:h-[475px] items-center justify-items-center p-8 font-[family-name:var(--font-geist-sans)] select-none transition-all"
-      style={{border:"2px solid yellow"}}>
+      style={{border:"0px solid yellow"}}>
 
       <main className="flex flex-col gap-[32px] row-start-2 items-center md:mx-auto" style={{border:"0px solid white"}}>
         

@@ -32,7 +32,7 @@ const page = () => {
 <>
      <div className='w-[34%] ml-[33.5%] mt-[10%] mb-[20%]' style={{border:"0px solid white"}}>
 
-         <div className='md:w-[100%] text-center md:mt-[40%] md:mb-[20%] 2xl:mb-[10%]' style={{border:"0px solid white"}}>
+         <div className='md:w-[100%] text-center sm:mt-[50%] sm:mb-[30%] md:mt-[40%] md:mb-[20%] 2xl:mb-[10%]' style={{border:"0px solid white"}}>
 
                    <h1 className='font-bold md:text-[18px] xl:text-[22px]'> Popular Blogs </h1>
 
@@ -42,10 +42,10 @@ const page = () => {
 
           blogs.map((blogitem : any)=>(
 
-              <div key={blogitem.slug} className='md:mt-[10%] md:ml-[-55%] md:w-[220%] md:mx-auto lg:w-[160%] lg:ml-[-32%] xl:w-[150%] xl:ml-[-28%] 2xl:w-[105%] 2xl:ml-[-2%] 2xl:mb-[-2%]' style={{border:"0px solid white"}}>
+              <div key={blogitem.slug} className='flex flex-col items-center justify-center sm:w-[250%] sm:ml-[-70%] sm:mt-[10%] md:mt-[10%] md:ml-[-72%] md:w-[240%] lg:w-[180%] lg:ml-[-32%] xl:w-[160%] xl:ml-[-28%] 2xl:w-[125%] 2xl:ml-[-12%] 2xl:mb-[-2%]' style={{border:"1px solid white"}}>
 
                 <Link href={`/blogpost/${blogitem.slug}`}>
-                <h2 className='md:text-[13px] md:hover:text-[14px] lg:text-[11px] hover:lg:text-[12px] xl:text-[13px] hover:xl:text-[14px] font-semibold hover:underline hover:underline-offset-[5px] cursor-pointer select-none'> {blogitem.title} </h2> </Link>
+                <h2 className='sm:text-[10px] sm:hover:text-[11px] md:text-[13px] md:hover:text-[14px] lg:text-[11px] hover:lg:text-[12px] xl:text-[13px] hover:xl:text-[14px] font-semibold hover:underline hover:underline-offset-[5px] cursor-pointer select-none'> {blogitem.title} </h2> </Link>
 
                 <p className='select-none text-[10px]'> {(blogitem.content).substring(0,60)}... </p>
 

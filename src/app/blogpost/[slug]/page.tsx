@@ -48,17 +48,17 @@ const BlogPostPage = () => {
   return (
     <div className="select-none">
       <div className="flex items-center justify-center">
-        <h1 className="md:text-[18px] mt-[5%] font-semibold">{blog.title}</h1>
+        <h1 className="mt-[10%] sm:text-[15px] md:text-[18px] font-semibold">{blog.title}</h1>
       </div>
 
       <hr className="w-full mt-[1%] bg-white" />
 
       <div className="blog-content w-[96%] py-4 ml-[2%]">
-        <p className="md:text-[12px] font-sans">{blog.content}</p>
+        <p className="sm:text-[9px] md:text-[12px] font-sans">{blog.content}</p>
       </div>
 
-      <div className="author md:ml-[68%] font-sem">
-        <p className="font-bold font-mono md:text-[13px] xl:ml-[17%]">{blog.author}</p>
+      <div className="author sm:ml-[67%] md:ml-[68%] font-sem">
+        <p className="font-bold font-mono sm:text-[10px] md:text-[13px] md:ml-[-18%] lg:ml-[-1%] xl:ml-[17%]">{blog.author}</p>
       </div>
     </div>
   );

@@ -21,9 +21,9 @@ const page = () => {
   return (
 <>
 
-    <div className=' md:mt-[10%] md:mb-[10%] md:w-[250px] md:ml-[18%] lg:ml-[4%] xl:ml-[12.5%] xl:mt-[4.5%] xl:mb-[10%] 2xl:ml-[20.5%] 2xl:mt-[10%] flex items-center justify-center flex-col select-none transition-all' style={{border:"0px solid white"}}>
+    <div className='relative mx-auto mb-[20%] w-[50%] aspect-[16/9] mt-[8vh] hover:rounded-4xl overflow-hidden select-none transition-all duration-300' style={{border:"1px solid white"}}>
 
-       <Image src="/images/coding.jpg" width={400} height={400} alt='Coding' className='md:mt[20%] object-cover lg:h-[250px] lg:w-[500px]'/>
+       <Image src="/images/coding.jpg" fill={true} alt='Coding' className='absolute object-cover'/>
 
 
     </div>

@@ -5,6 +5,11 @@ import Link from 'next/link';
 
 const page = () => {
 
+  useEffect(() => {
+    document.title = "Hunting Coder - Blogs"
+})
+
+
   const [blogs, setBlogs] = useState<any[]>([]);
 
   useEffect(() => {
@@ -23,7 +28,7 @@ const page = () => {
 
           fetchBlog();
 
-  }, []);
+  },[]);
   
 
 
@@ -66,6 +71,8 @@ const page = () => {
 }
 
 export default page;
+
+
 
 
 

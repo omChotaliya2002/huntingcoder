@@ -21,7 +21,7 @@ const page = () => {
   return (
 <>
 
-    <div className='relative mx-auto mb-[20%] w-[50%] aspect-[16/9] mt-[8vh] hover:rounded-4xl overflow-hidden select-none transition-all duration-300' style={{border:"1px solid white"}}>
+    <div className='relative mx-auto mb-[20%] w-[50%] aspect-[16/9] mt-[8vh] hover:rounded-4xl overflow-hidden select-none transition-all duration-300' style={{border:"2px solid white"}}>
 
        <Image src="/images/coding.jpg" fill={true} alt='Coding' className='absolute object-cover'/>
 

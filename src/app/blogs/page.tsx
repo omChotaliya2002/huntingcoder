@@ -42,7 +42,7 @@ const page = () => {
 
           blogs.map((blogitem : any)=>(
 
-              <div key={blogitem.slug} className='flex flex-col items-center justify-center sm:w-[250%] sm:ml-[-70%] sm:mt-[10%] md:mt-[10%] md:ml-[-72%] md:w-[240%] lg:w-[180%] lg:ml-[-32%] xl:w-[160%] xl:ml-[-28%] 2xl:w-[125%] 2xl:ml-[-12%] 2xl:mb-[-2%]' style={{border:"1px solid white"}}>
+              <div key={blogitem.slug} className='flex flex-col items-center justify-center sm:w-[250%] sm:ml-[-70%] sm:mt-[10%] md:mt-[10%] md:ml-[-72%] md:w-[240%] lg:w-[180%] lg:ml-[-32%] xl:w-[160%] xl:ml-[-28%] 2xl:w-[125%] 2xl:ml-[-12%] 2xl:mb-[-2%]' style={{border:"0px solid white"}}>
 
                 <Link href={`/blogpost/${blogitem.slug}`}>
                 <h2 className='sm:text-[10px] sm:hover:text-[11px] md:text-[13px] md:hover:text-[14px] lg:text-[11px] hover:lg:text-[12px] xl:text-[13px] hover:xl:text-[14px] font-semibold hover:underline hover:underline-offset-[5px] cursor-pointer select-none'> {blogitem.title} </h2> </Link>

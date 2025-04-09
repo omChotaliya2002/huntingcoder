@@ -14,14 +14,14 @@ const page = () => {
 
   return (
 <>
-  <div className='relative flex items-center justify-center h-[300px] mt-[8%] flex-col select-none transition-all' style={{border:"2px solid white"}}>
+  <div className='relative flex items-center justify-center h-[300px] mt-[8%] flex-col select-none transition-all' style={{border:"0px solid white"}}>
       
-      <div className='absolute top-[10%] w-fit h-[40px]' style={{border:"1px solid white"}}>  
-          <p className='text-[25px] font-semibold' style={{border:"1px solid white"}}> Find us on  </p>       
+      <div className='absolute top-[10%] w-fit h-[40px]' style={{border:"0px solid white"}}>  
+          <p className='sm:text-[17px] md:text-[20px] text-[25px] font-semibold' style={{border:"0px solid white"}}> Always awailable for true hunters on </p>       
       </div>
 
 
-      <ul className='flex flex-row items-center justify-center social-platforms absolute w-full h-[60px] bg-blue-200' style={{border:"2px solid yellow"}}>
+      <ul className='flex flex-row items-center justify-center social-platforms absolute w-full h-[60px] bg-blue-200' style={{border:"0px solid yellow"}}>
 
           
             <Image src="/images/github.svg" width={100} height={100} alt='github' className='w-[70px] h-[60px] sm:mx-[10px] md:mx-[10px] lg:mx-[15px] xl:mx-[35px] 2xl:mx-[50px] cursor-pointer hover:scale-110'/>

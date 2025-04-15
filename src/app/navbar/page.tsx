@@ -8,7 +8,7 @@ const page = () => {
 
   return (
 
-    <div className="navbar mt-[1%] md:h-10 md:w-[100%] select-none transition-all bg-[#0049a8]" style={{border:"0px solid white"}}>
+    <div className="navbar w-fit mt-[1%] sm:w-full md:h-10 md:w-[100%] 2xl:w-[100%] select-none transition-all bg-[#0049a8]" style={{border:"0px solid white"}}>
 
             <nav className="flex items-center h-9.5 justify-center">
                 <ul className="flex flex-row">

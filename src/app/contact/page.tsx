@@ -3,6 +3,7 @@
 'use client'
 
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import { useEffect } from 'react';
 
@@ -25,20 +26,24 @@ const page = () => {
 
       <ul className='flex flex-row items-center justify-center social-platforms absolute w-full h-[60px] bg-blue-200' style={{border:"0px solid yellow"}}>
 
-          
+              <Link href={"https://github.com/"}>  
             <Image src="/images/github.svg" width={100} height={100} alt='github' className='w-[70px] h-[60px] sm:mx-[10px] md:mx-[10px] lg:mx-[15px] xl:mx-[35px] 2xl:mx-[50px] cursor-pointer hover:scale-110'/>
+            </Link>
         
 
-         
+            <Link href={"https://www.facebook.com/"}>
             <Image src="/images/fb.svg" width={100} height={100} alt='facebook' className='h-[60px] w-[60px] sm:mx-[10px] md:mx-[10px] lg:mx-[15px] xl:mx-[35px] 2xl:mx-[50px] cursor-pointer hover:scale-110'/>
+            </Link>
 
 
-          
+          <Link href={"https://x.com/?lang=en"}>
             <Image src="/images/Twitter.svg" width={100} height={100} alt='twitter' className='h-[65px] w-[65px] sm:mx-[10px] md:mx-[10px] lg:mx-[15px] xl:mx-[35px] 2xl:mx-[50px] cursor-pointer hover:scale-110'/>
+            </Link>
         
 
-         
+         <Link href={"https://wordpress.com/"}>
             <Image src="/images/wordpress.svg" width={200} height={200} alt='wordpress' className='h-[40px] w-[40px] sm:mx-[20px] md:mx-[10px] lg:mx-[15px] xl:mx-[35px] 2xl:mx-[50px] cursor-pointer hover:scale-110'/>
+            </Link>
 
       </ul>
 

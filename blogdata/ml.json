@@ -2,5 +2,6 @@
     "title" : "Know everything about Machine learning.",
     "content" : "Begin your machine learning journey by mastering Python, the field's cornerstone language. Familiarize yourself with libraries like NumPy and Pandas for data manipulation. Then, dive into core machine learning concepts through online courses or tutorials, focusing on supervised and unsupervised learning. Practice with datasets using scikit-learn, starting with simple regression and classification problems. Gradual progression to more complex algorithms and frameworks like TensorFlow or PyTorch will solidify your understanding. Remember, consistent practice with real-world datasets is crucial for building a strong foundation.",
     "author" : "- Hunting Coder😎",
-    "slug" : "ml"
+    "slug" : "ml",
+    "image" : "/blogimg/ml1.jpeg"
 }
